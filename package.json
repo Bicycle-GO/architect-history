@@ -1,0 +1,11 @@
+{
+  "name": "architect-history",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node site/server.mjs",
+    "start": "node site/server.mjs",
+    "check": "node --check site/dist/app.js && node --check site/dist/data.js && node site/scripts/check.mjs"
+  }
+}
