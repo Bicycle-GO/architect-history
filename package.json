@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node site/server.mjs",
+    "build": "node site/scripts/build-pages.mjs",
+    "dev": "node site/scripts/build-pages.mjs && node site/server.mjs",
     "start": "node site/server.mjs",
-    "check": "node --check site/dist/app.js && node --check site/dist/data.js && node site/scripts/check.mjs"
+    "check": "node --check site/dist/multipage-app.js && node --check site/dist/views.js && node --check site/dist/catalog.js && node site/scripts/check.mjs"
   }
 }
