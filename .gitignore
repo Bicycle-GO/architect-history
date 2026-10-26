@@ -3,3 +3,10 @@ node_modules/
 *.tar.gz
 site/.sites-runtime/
 site/.sites-checkout/
+site/
+web/dist/runtime/
+web/dist/**/*.html
+web/dist/*.html
+web/dist/page-manifest.json
+web/dist/build-manifest.json
+.vercel/
