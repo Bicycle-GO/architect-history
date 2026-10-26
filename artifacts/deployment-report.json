@@ -1,0 +1,15 @@
+{
+  "productionUrl": "https://architect-history.vercel.app",
+  "repository": "Bicycle-GO/architect-history",
+  "commit": "db84d35d1eddb823bc9d558324517f8feb3208c2",
+  "buildId": "c597acf5df2261c4",
+  "deploymentDashboard": "https://vercel.com/kang-wang-gyu-s-projects/architect-history/4Umh2T3ihc3jSk2ZRb4qiWUJdAKb",
+  "verification": {"checked":98,"passed":98,"failures":[],"photosDecodedInBrowser":11,"browserErrors":0,"sidebarDesktopAndMobile":"passed"},
+  "unpublishedFallback": {
+    "teamId":"team_Vmsl2M1TGwadYvvG1DF6Bfzd",
+    "projectId":"prj_qKYIeO57qb9r44Zh2Am93y8ytYq5",
+    "domain":"architect-history-sigma.vercel.app",
+    "deployments":0,
+    "note":"Created while investigating team access. Original project redeployed automatically from GitHub. The fallback remains empty and unpublished; no project deletion tool is available in the connected Vercel toolset."
+  }
+}
