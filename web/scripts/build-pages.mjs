@@ -6,7 +6,7 @@ import { esc } from '../dist/components.js';
 
 const root=new URL('../dist/',import.meta.url);
 const credits=JSON.parse(await readFile(new URL('assets/credits.json',root),'utf8'));
-const runtimeFiles=['multipage-app.js','shell.js','views.js','navigation.js','catalog.js','components.js','data.js','styles.css','multipage.css','sidebar.css'];
+const runtimeFiles=['multipage-app.js','shell.js','views.js','home.js','navigation.js','catalog.js','components.js','data.js','styles.css','multipage.css','sidebar.css','design.css'];
 // Git normalizes text to LF; use the same bytes on Windows and Vercel/Linux.
 const contents=await Promise.all(runtimeFiles.map(async file=>Buffer.from((await readFile(new URL(file,root),'utf8')).replace(/\r\n?/g,'\n'),'utf8')));
 const digest=createHash('sha256');
@@ -39,6 +39,7 @@ for(const route of routes){
  <link rel="stylesheet" href="${runtimePath}styles.css">
  <link rel="stylesheet" href="${runtimePath}multipage.css">
  <link rel="stylesheet" href="${runtimePath}sidebar.css">
+ <link rel="stylesheet" href="${runtimePath}design.css">
  <script defer src="${runtimePath}shell.js"></script>
  <script type="module" src="${runtimePath}multipage-app.js"></script>
 </head>
